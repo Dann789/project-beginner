@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        li > a {
+            text-decoration: none;
+        }
+
+        section {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Page</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <hr>
+       <form>
+        <div>
+            <label for="firstName">First Name</label><br>
+            <input type="text" name="firstName" id="firstName" placeholder="Enter Your First name">
+        </div>
+            
+        <div>
+            <label for="lastName">Last Name</label><br>
+            <input type="text" name="lastName" id="lastName" placeholder="Enter Your Last Name">
+        </div>
+        
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <button>Submit</button>
+       </form>
+       <hr>
+    </main>
+
+    <footer>
+        <h4>Recipes By Wildan Rama</h4>
+        <p><em>All Right Reserved</em></p>
+    </footer>
+</body>
+</html>
