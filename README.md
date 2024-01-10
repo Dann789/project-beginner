@@ -1,2 +1,3 @@
-My Project
+My Project -> HTML, CSS, JS, etc.
+
 Try to be better...
